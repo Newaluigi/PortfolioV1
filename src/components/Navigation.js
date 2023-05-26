@@ -35,7 +35,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink exact to="/portfolio" className="navActive">
-              <FaImages />
+              <FaImages className="icon" />
               <span>Portfolio</span>
             </NavLink>
           </li>
@@ -58,19 +58,20 @@ const Navigation = () => {
               <FaLinkedin className="icon" />
             </a>
           </li>
-          <li className="contsocial">
+          <li>
             <a
               href="https://github.com/Newaluigi"
               target="_blank"
               rel="noopener noreferrer"
+              className="contsocial"
             >
               <FaGithub />
             </a>
           </li>
         </ul>
-      </div>
-      <div className="signature">
-        <p>Newaluigi - 2023</p>
+        <div className="signature">
+          <p>Newaluigi - 2023</p>
+        </div>
       </div>
     </div>
   );

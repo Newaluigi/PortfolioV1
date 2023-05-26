@@ -84,11 +84,64 @@
     background: $color-5;
     color: $color-1;
     border-radius: 50%;
-    padding: 0.5rem 0.8rem;
+    padding: 0.8rem 0.8rem 0.6rem;
     transition: 0.3s;
     cursor: pointer;
-    a:hover {
+    &:hover {
+      background-color: $color-4;
+    }
+  }
+}
+.signature {
+  margin-top: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  p {
+    color: $color-5;
+    &:hover {
       color: $color-4;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sidebar {
+    display: flex;
+    min-height: 50px;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    .id,
+    .socialNetwork {
+      display: none;
+    }
+    .navigation {
+      width: 100%;
+      padding: 0.1rem 1rem;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        span {
+          margin-left: 1.5rem !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 580px) {
+  .sidebar {
+    ul {
+      justify-content: space-around !important;
+      li {
+        padding: 1rem 0 !important;
+      }
+      .icon {
+        font-size: 1.4rem !important;
+        transform: translateY(-3px) !important;
+      }
+      span {
+        display: none;
+      }
     }
   }
 }
