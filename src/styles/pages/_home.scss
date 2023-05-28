@@ -14,7 +14,7 @@
       position: absolute;
       height: 100%;
       width: inherit;
-      background: url("") no-repeat center/cover;
+      // background: url("/src/assets/computer.png") no-repeat center/cover;
       z-index: -1;
       filter: brightness(30%);
     }
@@ -62,7 +62,7 @@
 @media screen and (max-width: 580px) {
   .homeContent {
     &:after {
-      background: url() no-repeat 60% 50% / cover !important;
+      // background: url() no-repeat 60% 50% / cover !important;
     }
     h1 {
       font-size: 3rem !important;
