@@ -31,7 +31,7 @@
       @include verticalCenter;
 
       input[type="radio"] {
-        // visibility: hidden;
+        visibility: hidden;
         position: relative;
 
         &:before {
