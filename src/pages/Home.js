@@ -14,6 +14,24 @@ const Home = () => {
     zIndex: 0,
   };
 
+  const svgCode = (
+    <svg width="100%" height="100%" version="1.1">
+      <path id="path">
+        <animate
+          attributeName="d"
+          from="m0,110 h0"
+          to="m0,110 h1100"
+          dur="4s"
+          begin="0s"
+          repeatCount="indefinite"
+        />
+      </path>
+      <text style={{ maxWidth: "100%", fill: "rgb(99, 164, 233)" }}>
+        <textPath href="#path">Développeur full stack</textPath>
+      </text>
+    </svg>
+  );
+
   return (
     <div className="home">
       <Navigation />
@@ -21,7 +39,7 @@ const Home = () => {
         <div className="overlay" style={overlayStyle}></div>
         <div className="content">
           <h1>Alexandre Levillain</h1>
-          <h2>Full Stack Developer</h2>
+          <h2>{svgCode}</h2>
           <div className="pdf">
             <a href={CV} target="_blank" rel="noopener noreferrer">
               Télécharger CV
