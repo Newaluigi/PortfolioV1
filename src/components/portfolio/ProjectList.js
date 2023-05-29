@@ -12,38 +12,56 @@ class ProjectList extends Component {
       { id: 4, value: "Hackathon" },
     ],
     selectedRadio: "Fun stuff",
+    isMobile: false,
   };
 
   handleRadio = (event) => {
-    // console.log(event.target.value);
     let radio = event.target.value;
     this.setState({ selectedRadio: radio });
   };
 
+  updateIsMobile = () => {
+    this.setState({ isMobile: window.innerWidth <= 520 });
+  };
+
+  componentDidMount() {
+    this.updateIsMobile();
+    window.addEventListener("resize", this.updateIsMobile);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateIsMobile);
+  }
+
   render() {
-    let { projects, radios, selectedRadio } = this.state;
+    let { projects, radios, selectedRadio, isMobile } = this.state;
+
     return (
       <div className="portfolioContent">
-        <ul className="radioDisplay">
-          {radios.map((radio) => {
-            return (
-              <li key={radio.id}>
-                <input
-                  type="radio"
-                  name="radio"
-                  checked={radio.value === selectedRadio}
-                  value={radio.value}
-                  id={radio.value}
-                  onChange={this.handleRadio}
-                />
-                <label htmlFor={radio.value}>{radio.value}</label>
-              </li>
-            );
-          })}
-        </ul>
+        {!isMobile && (
+          <ul className="radioDisplay">
+            {radios.map((radio) => {
+              return (
+                <li key={radio.id}>
+                  <input
+                    type="radio"
+                    name="radio"
+                    checked={radio.value === selectedRadio}
+                    value={radio.value}
+                    id={radio.value}
+                    onChange={this.handleRadio}
+                  />
+                  <label htmlFor={radio.value}>{radio.value}</label>
+                </li>
+              );
+            })}
+          </ul>
+        )}
         <div className="projects">
           {projects
-            .filter((item) => item.languages.includes(selectedRadio))
+            .filter(
+              (item) => item.languages.includes(selectedRadio) || isMobile
+            )
             .map((item) => {
               return <Project key={item.id} item={item} />;
             })}
