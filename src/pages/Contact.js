@@ -8,13 +8,42 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import backgroundImage from "../assets/map.jpg";
+// import wave from "../assets/shape.svg";
 
 const Contact = () => {
   return (
     <div className="contact">
       <Navigation />
       <div className="contactContent">
-        <div className="header"></div>
+        <div className="header">
+          <div
+            style={{
+              content: "",
+              width: "100%",
+              height: "100%",
+              position: "absolute",
+              backgroundImage: `url(${backgroundImage})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              filter: "grayscale(100%)",
+            }}
+          ></div>
+          {/* <div
+            style={{
+              content: "",
+              width: "100%",
+              height: "100%",
+              position: "absolute",
+              top: "30px",
+              background: `url(${wave})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+          ></div> */}
+        </div>
         <div className="contactBox">
           <h1>Contactez-moi</h1>
           <ul>
