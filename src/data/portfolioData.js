@@ -19,7 +19,7 @@ export const portfolioData = [
     languages: ["Fun stuff", "Team projects"],
     languagesIcons: [<FaHtml5 />, <FaJs />],
     source: "https://github.com/Newaluigi/Game_Date_Match",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Premier projet au sein de la Wild code school. La consigne était de créer un site en html/css avec un peu de js sur un délai de 2 semaines. Il s'agit d'un site de rencontre développé comme une expérience linéaire. L'utilisateur peut trouver un couple pur former un trouple. Le match abouti à un jeu space invader, si l'utilisateur gagne il obtient le contacct du match en récompense sinon il peut s'abonner pour rejouer.",
     picture: projet1,
   },
   {
@@ -28,7 +28,7 @@ export const portfolioData = [
     languages: ["Fun stuff", "Team projects", "Hackathon"],
     languagesIcons: [<FaJs />, <FaReact />],
     source: "https://github.com/Newaluigi/Intergalactic-tournament",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Premier hackathon en équipe : créer un site en 24h avec l'univers de starwars. Les consignes étaient de consommer une API Starwars et de découvrir React afin d'utiliser ce framework pour développer le site. Le thème choisi fut de créer un site évènementiel autour des tournois de courses de modules.",
     picture: projet2,
   },
   {
@@ -38,7 +38,7 @@ export const portfolioData = [
     languagesIcons: [<FaJs />, <FaReact />, <SiExpress />],
     source:
       "https://github.com/Newaluigi/11-22-devandjerrys-levilaincoin-front",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Projet d'école sur 4 semaines. La consigne était de créer un site avec React en consommant l'API de notre choix. L'API choisie fut les supervilains DC COMICS. L'idée fut de créer une parodie du site Leboncoin. Ici le visiteur peut soit louer les services d'un supervilain pour un évènement en accédant à tout un catalogue de méchants soit s'inscrire en tant que vilain.  ",
     picture: projet3,
   },
   {
@@ -47,7 +47,7 @@ export const portfolioData = [
     languages: ["Clients", "Team projects", "Hackathon"],
     languagesIcons: [<FaJs />, <FaReact />, <SiExpress />, <SiMysql />],
     source: "https://github.com/Newaluigi/hackathon_3_emmaus_connect",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Hackathon en équipe : créer un site en un peu plus de 24h pour un client-partenaire : l'association Emmaüs Connect qui travaille au quotidien sur l'inclusion au numérique. Le besoin du client auquel il fallait répondre était de créer une plateforme avec BDD comme outil de classification des smartphones afin de générer un prix de vente selon leurs caractéristiques.",
     picture: projet4,
   },
   {
@@ -57,7 +57,7 @@ export const portfolioData = [
     languagesIcons: [<FaJs />, <FaReact />, <SiExpress />, <SiMysql />],
     source:
       "https://github.com/Newaluigi/05-11-devandjerrys-labaladecaspienneV2",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Projet d'école pour une cliente : créer un site-boutique en React pour une artiste. Le thème de sa production est l'univers de l'imaginaire. Le site comprend un back pour gérer à la fois la connexion et le panier du client et la console d'administration de la cliente.",
     picture: projet5,
   },
   {
@@ -66,7 +66,7 @@ export const portfolioData = [
     languages: ["Clients"],
     languagesIcons: [<FaHtml5 />],
     source: "https://github.com/Newaluigi/Malo",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Petit site-vitrine en singlepage pour une location d'appartement pour estivaliers situé à Malo-Les-Bains.",
     picture: projet6,
   },
   {
@@ -75,7 +75,7 @@ export const portfolioData = [
     languages: ["Fun stuff", "Team projects", "Hackathon"],
     languagesIcons: [<FaJs />, <FaReact />, <SiExpress />, <SiMysql />],
     source: "https://github.com/Newaluigi/KaamelottQuests",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Projet de hackathon en équipe : créer un site en 24h avec un petit back. Le thème était de proposer un service moderne au sein d'une période historique. La période choisie fut l'époque médiévale, le site a pour objet de fournir un outil aux chevaliers de la table ronde  de l'univers de Kaamelott afin qu'ils puissent plus facilement trouver des quêtes à réaliser sans prendre le risque de passer par la taverne. ",
     picture: projet7,
   },
   {
@@ -84,7 +84,7 @@ export const portfolioData = [
     languages: ["Fun stuff", "Hackathon"],
     languagesIcons: [<TbBrandCSharp />, <FaUnity />],
     source: "https://github.com/Newaluigi/Hack4",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    info: "Projet d'hackthon : découvrir la programmation de jeu-vidéo avec Unity. Création d'un petit jeu de plateforme en un eu plus de 24h.",
     picture: projet8,
   },
   {
@@ -92,8 +92,8 @@ export const portfolioData = [
     name: "Academia Victoria",
     languages: ["Clients"],
     languagesIcons: [<FaWordpress />],
-    source: "https://github.com/Newaluigi/Hack4",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    source: "https://github.com/Newaluigi/",
+    info: "Site-vitrine en espagnol réalisé avec Wordpress pour une académie d'anglais. Le site comprend une console d'administration pour gérer entre autre un blog.",
     picture: inprogress,
   },
   {
@@ -101,8 +101,8 @@ export const portfolioData = [
     name: "Harmonisons",
     languages: ["Clients"],
     languagesIcons: [<FaJs />, <FaReact />, <SiExpress />, <SiMysql />],
-    source: "",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    source: "https://github.com/Newaluigi/",
+    info: "Site-vitrine pour une chamane pour présenter son activité et le déblocage transgénérationnel. Le site comprend une console d'administration et une gestion de prise de rdv.",
     picture: inprogress,
   },
   {
@@ -110,8 +110,8 @@ export const portfolioData = [
     name: "JS Bach",
     languages: ["Fun stuff"],
     languagesIcons: [<FaJs />, <FaReact />, <SiExpress />, <SiMysql />],
-    source: "",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.",
+    source: "https://github.com/Newaluigi/",
+    info: "Site décalé autour de Jean-Sébastien Bach : l'objectif du site est de mettre en avant le Back en incorporant un CRUD",
     picture: projet11,
   },
 ];
