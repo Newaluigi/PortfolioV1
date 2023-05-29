@@ -36,7 +36,7 @@ class ProjectList extends Component {
                   id={radio.value}
                   onChange={this.handleRadio}
                 />
-                <label htmlFor="{radio.value}">{radio.value}</label>
+                <label htmlFor={radio.value}>{radio.value}</label>
               </li>
             );
           })}
