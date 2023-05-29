@@ -55,7 +55,7 @@ const Navigation = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="icon" />
+              <FaLinkedin />
             </a>
           </li>
           <li>
