@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/PortfolioV1/static/css/main.e4312b1f.css",
+    "main.js": "/PortfolioV1/static/js/main.fcb5f7eb.js",
+    "static/js/787.dbbd0357.chunk.js": "/PortfolioV1/static/js/787.dbbd0357.chunk.js",
+    "static/media/vilain.png": "/PortfolioV1/static/media/vilain.42e384dffc63593d348b.png",
+    "static/media/bach.jpg": "/PortfolioV1/static/media/bach.3947fcf83e640e3afa28.jpg",
+    "static/media/computer.png": "/PortfolioV1/static/media/computer.f4bb47893dddc2c67299.png",
+    "static/media/cv.pdf": "/PortfolioV1/static/media/cv.c100e178be2ad4f8361a.pdf",
+    "static/media/malo.jpg": "/PortfolioV1/static/media/malo.cb080480823edd757f9d.jpg",
+    "static/media/kaamelott.jpg": "/PortfolioV1/static/media/kaamelott.a2814baa094599617df8.jpg",
+    "static/media/starwars.jpg": "/PortfolioV1/static/media/starwars.cb8b271e6b99957cc86f.jpg",
+    "static/media/map.jpg": "/PortfolioV1/static/media/map.3e5949c9b6f7cd03bd31.jpg",
+    "static/media/emmausconnect.png": "/PortfolioV1/static/media/emmausconnect.22b030eb319a4d9a842c.png",
+    "static/media/balade.png": "/PortfolioV1/static/media/balade.efbfdce78ad02c4dd09b.png",
+    "static/media/redhood.jpg": "/PortfolioV1/static/media/redhood.30c691363d27f15be89e.jpg",
+    "static/media/gdm.jpg": "/PortfolioV1/static/media/gdm.222a333705707d3a4da0.jpg",
+    "static/media/inprogress.png": "/PortfolioV1/static/media/inprogress.039e83105ad74accb5da.png",
+    "static/media/image.jpg": "/PortfolioV1/static/media/image.49787f12bcb508f28f52.jpg",
+    "index.html": "/PortfolioV1/index.html",
+    "main.e4312b1f.css.map": "/PortfolioV1/static/css/main.e4312b1f.css.map",
+    "main.fcb5f7eb.js.map": "/PortfolioV1/static/js/main.fcb5f7eb.js.map",
+    "787.dbbd0357.chunk.js.map": "/PortfolioV1/static/js/787.dbbd0357.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4312b1f.css",
+    "static/js/main.fcb5f7eb.js"
+  ]
+}
