@@ -45,8 +45,13 @@
           border-radius: $borderRadius;
           box-shadow: 0 5px 1px rgb(15, 15, 15);
           transition: 0.2 ease;
+
           &:hover {
             background: $color-4;
+          }
+          &:active {
+            background: $color-2;
+            transform: translateY(2px);
           }
         }
       }
@@ -61,9 +66,9 @@
 }
 @media screen and (max-width: 580px) {
   .homeContent {
-    &:after {
-      // background: url() no-repeat 60% 50% / cover !important;
-    }
+    // &:after {
+    //   background: url() no-repeat 60% 50% / cover !important;
+    // }
     h1 {
       font-size: 3rem !important;
     }
