@@ -18,7 +18,14 @@
     .hobbies {
       background: $color-2;
       border-radius: $borderRadius;
+      margin: 10px;
       padding: 0.8rem;
+      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
     }
     h3 {
       font-size: 1.4rem;
@@ -32,7 +39,7 @@
       margin-bottom: 0.5rem;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 30% 70%;
+      grid-template-rows: 40% 60%;
       grid-template-areas:
         "A"
         "F";
@@ -65,7 +72,7 @@
             content: "";
             background: rgba(180, 179, 179, 0.5);
             position: absolute;
-            height: 146px;
+            height: 165px;
             width: 1px;
             transform: translate(9px, 19px);
           }
@@ -102,11 +109,11 @@
     }
     .experience {
       grid-area: E;
-      margin: 0 0 0.5rem 0.5rem;
+      // margin: 0 0 0.5rem 0.5rem;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
-      grid-area: "1" "2" "3";
+      grid-template-rows: 10% 1fr 1fr 1fr 1fr;
+      grid-area: "1" "2" "3" "4" "5";
       h3 {
         grid-area: 1;
       }
@@ -128,6 +135,36 @@
       .exp-2 {
         grid-area: 3;
       }
+      .exp-3 {
+        grid-area: 4;
+      }
+      .exp-4 {
+        grid-area: 5;
+      }
+      li {
+        padding-bottom: 1.5rem;
+        border-left: 1px solid #abaaed;
+        position: relative;
+        padding-left: 20px;
+        margin-left: 10px;
+        // &:last-child {
+        //   border: 0px;
+        //   padding-bottom: 0;
+        // }
+        &:before {
+          content: "";
+          width: 15px;
+          height: 15px;
+          background: white;
+          border: 1px solid #4e5ed3;
+          box-shadow: 3px 3px 0px #bab5f8;
+          box-shadow: 3px 3px 0px #bab5f8;
+          border-radius: 50%;
+          position: absolute;
+          left: -10px;
+          top: 0px;
+        }
+      }
     }
     .otherSkills {
       grid-area: O;
@@ -142,9 +179,14 @@
 
         ul {
           height: 80%;
-          display: grid;
+          column-count: 2; /* Divise la liste en deux colonnes */
+          column-gap: 1rem; /* Espace entre les colonnes */
           .listIcon {
             color: $color-5;
+            margin-right: 15px;
+          }
+          li {
+            padding: 10px;
           }
         }
       }
@@ -191,7 +233,7 @@
     }
     h5 {
       font-size: 0.6rem !important;
-      padding: 2rem 1rem !important;
+      // padding: 2rem 1rem !important;
     }
   }
 }
@@ -199,19 +241,22 @@
   .knowledgesContent {
     display: grid !important;
     grid-template-columns: 1fr !important;
-    grid-template-rows: 1fr 1fr 180px 180px !important;
+    grid-template-rows: 1fr 1fr 250px 190px !important;
     grid-template-areas:
       "1"
       "2"
       "3"
       "4" !important;
 
-    .languages {
+    .languagesFrameworks {
       grid-area: 1 !important;
     }
 
     .experience {
       grid-area: 2 !important;
+      p {
+        margin-bottom: 10px !important;
+      }
     }
 
     .otherSkills {

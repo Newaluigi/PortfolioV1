@@ -22,25 +22,25 @@ const Navigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink exact to="/" className="navActive">
+            <NavLink to="/" exact="true" className="navActive">
               <FaHome className="icon" />
               <span>Accueil</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/competences" className="navActive">
+            <NavLink to="/competences" exact="true" className="navActive">
               <FaAward className="icon" />
               <span>Compétences</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/portfolio" className="navActive">
+            <NavLink to="/portfolio" exact="true" className="navActive">
               <FaImages className="icon" />
               <span>Portfolio</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/contact" className="navActive">
+            <NavLink to="/contact" exact="true" className="navActive">
               <FaAddressCard className="icon" />
               <span>Contact</span>
             </NavLink>
@@ -55,7 +55,7 @@ const Navigation = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="icon" />
+              <FaLinkedin />
             </a>
           </li>
           <li>
