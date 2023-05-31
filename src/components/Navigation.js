@@ -51,7 +51,7 @@ const Navigation = () => {
         <ul>
           <li className="social">
             <a
-              href="https://www.linkedin.com/in/alexandrelevillain/"
+              href="https://www.linkedin.com/in/alexandre-levillain/"
               target="_blank"
               rel="noopener noreferrer"
             >

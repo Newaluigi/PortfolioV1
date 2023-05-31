@@ -15,11 +15,11 @@ import { SiExpress, SiMysql } from "react-icons/si";
 export const portfolioData = [
   {
     id: 1,
-    name: "Gamme Date & Match",
+    name: "Game Date & Match",
     languages: ["Fun stuff", "Team projects"],
     languagesIcons: [<FaHtml5 />, <FaJs />],
     source: "https://github.com/Newaluigi/Game_Date_Match",
-    info: "Premier projet au sein de la Wild code school. La consigne était de créer un site en html/css avec un peu de js sur un délai de 2 semaines. Il s'agit d'un site de rencontre développé comme une expérience linéaire. L'utilisateur peut trouver un couple pur former un trouple. Le match abouti à un jeu space invader, si l'utilisateur gagne il obtient le contacct du match en récompense sinon il peut s'abonner pour rejouer.",
+    info: "Premier projet au sein de la Wild code school. La consigne était de créer un site en html/css avec un peu de js sur un délai de 2 semaines. Il s'agit d'un site de rencontres développé comme une expérience linéaire. L'utilisateur peut trouver un couple pour former un trouple. Le match aboutit à un jeu space invaders, si l'utilisateur gagne il obtient le contact du match en récompense sinon il peut s'abonner pour rejouer.",
     picture: projet1,
   },
   {
@@ -28,7 +28,7 @@ export const portfolioData = [
     languages: ["Fun stuff", "Team projects", "Hackathon"],
     languagesIcons: [<FaJs />, <FaReact />],
     source: "https://github.com/Newaluigi/Intergalactic-tournament",
-    info: "Premier hackathon en équipe : créer un site en 24h avec l'univers de starwars. Les consignes étaient de consommer une API Starwars et de découvrir React afin d'utiliser ce framework pour développer le site. Le thème choisi fut de créer un site évènementiel autour des tournois de courses de modules.",
+    info: "Premier hackathon en équipe : créer un site en 24h avec l'univers de Starwars. Les consignes étaient de consommer une API Starwars et de découvrir React afin d'utiliser ce framework pour développer le site. Le thème choisi fut de créer un site évènementiel autour des tournois de courses de modules.",
     picture: projet2,
   },
   {
@@ -84,7 +84,7 @@ export const portfolioData = [
     languages: ["Fun stuff", "Hackathon"],
     languagesIcons: [<TbBrandCSharp />, <FaUnity />],
     source: "https://github.com/Newaluigi/Hack4",
-    info: "Projet d'hackthon : découvrir la programmation de jeu-vidéo avec Unity. Création d'un petit jeu de plateforme en un eu plus de 24h.",
+    info: "Projet d'hackthon : découvrir la programmation de jeu-vidéo avec Unity. Création d'un petit jeu de plateforme en un peu plus de 24h.",
     picture: projet8,
   },
   {

@@ -31,6 +31,7 @@
         box-shadow: 0 0 0 4px $color-3, 0 0 0 8px $color-4, 0 0 0 12px $color-2;
         height: 130px;
         width: 120px;
+        object-fit: cover;
       }
       h3 {
         font-size: 1.3rem;

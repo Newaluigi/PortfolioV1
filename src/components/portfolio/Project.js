@@ -5,6 +5,9 @@ class Project extends Component {
   state = { showInfo: false };
   handleInfo = () => {
     this.setState({ showInfo: !this.state.showInfo });
+
+    const body = document.querySelector("body");
+    body.classList.toggle("popup-open");
   };
   //   handleExit = () => {
   //     this.setState({ showInfo: !this.state.showInfo });
