@@ -260,8 +260,7 @@ On this page there is a function to copy on the clipboard the contact informatio
 
 ## 📚 **RESSOURCES**
 
-### CopyToClipboard
-
+### CopyToClipboard :https://www.youtube.com/watch?v=xumrHy_Mv6k
 
 ### Radio function
 
@@ -274,10 +273,11 @@ On this page there is a function to copy on the clipboard the contact informatio
 * svg :
 * Image filter :
 * ProgressBar :
-* Box-shadow :
-* React icons :
-* Typing text effect :
-* Card hover effect :
+* Timeline : https://codepen.io/TajShireen/pen/JjGvVzg
+* Box-shadow : https://getcssscan.com/css-box-shadow-examples
+* React icons : https://react-icons.github.io/react-icons/
+* Typing text effect : https://codepen.io/tmrDevelops/pen/yyprGq/
+* Card hover effect : https://codepen.io/kiberbash/pen/MWEpevg
 
 <br />
 
@@ -291,6 +291,7 @@ On this page there is a function to copy on the clipboard the contact informatio
 * Improve some responsive details
 * Add a svg wave on contact page
 * Improve the popup landing
+* Transform to multilanguage site (eng, esp)
 
 <br />
 
